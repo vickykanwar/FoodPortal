@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@android:color/holo_blue_bright">
+
+	<TextView
+		  android:text="Add Product"
+		  android:textSize="30dp"
+		  android:textAppearance="?android:attr/textAppearanceLarge"
+		  android:layout_width="match_parent"
+		  android:layout_height="wrap_content"
+		  android:minWidth="25px"
+		  android:minHeight="25px"
+		  android:layout_marginLeft="30px"
+		  android:layout_marginTop="10dp"
+		  android:textColor="@android:color/white"
+		  android:textStyle="bold"
+		  android:id="@+id/textView3" />
+	<EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:hint="Enter Product Name"
+        android:layout_margin="20dp"
+        android:id="@+id/TxtProduct" />
+
+
+	<EditText
+		   android:layout_width="match_parent"
+		   android:layout_height="wrap_content"
+			 android:minWidth="25px"
+		   android:minHeight="25px"
+		   android:hint="Enter Password"
+		   android:layout_margin="20dp"
+		   android:id="@+id/TxtPrice" />
+
+
+
+	<Button
+			android:text="Submit"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="20dp"
+			android:id="@+id/btnSubmit" />
+
+	<Button
+			android:text="ADminZone"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="20dp"
+			android:id="@+id/btnAdminBack" />
+
+
+
+
+
+</LinearLayout>
